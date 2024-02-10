@@ -94,6 +94,7 @@ row{
     text-align: center;
     margin-bottom: 30px;
     width: 80%;
+    box-sizing: border-box;
 }
 
 @media (min-width:768px){
@@ -175,9 +176,7 @@ row{
     }
     
     
-    .final-pagina{
-        margin-top: 50%;
-    }
+
     
     .final-pagina p {
         margin-left: 5%;
