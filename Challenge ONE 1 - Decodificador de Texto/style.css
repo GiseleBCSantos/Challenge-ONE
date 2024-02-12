@@ -24,6 +24,13 @@ row{
     display: flex;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
+
 .logo_alura{
     padding-top: 20px;
 }
@@ -47,9 +54,6 @@ row{
 }
 
 
-.final-pagina{
-    margin-top: 30%;
-}
 
 .final-pagina p {
     margin-left: 10%;
@@ -95,6 +99,8 @@ row{
     margin-bottom: 30px;
     width: 80%;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
 }
 
 @media (min-width:768px){
@@ -110,7 +116,7 @@ row{
 .resposta img{
     width: 90%;
     height: 304px;
-    margin-top: 200px;
+    /* margin-top: 200px; */
 }
 
 .resposta .t-1{
@@ -174,6 +180,11 @@ row{
         height: 20%;
     
     }
+
+    form{
+        height: 70vh;
+        justify-content: space-between;
+    }
     
     
 
@@ -193,8 +204,9 @@ row{
     }
     
     .resposta{
-        width: inherit;
-        margin-top: 40px;
+        margin-top: 10px;
+        width: 95vw;
+
     }
     
     
@@ -202,6 +214,10 @@ row{
     .com-texto{
         display: none;
         justify-content: space-between;
+    }
+
+    .com-texto button {
+        width: 80vw;
     }
 }
 
