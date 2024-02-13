@@ -152,7 +152,8 @@ form{
     background: transparent;
     width: 100%;
     height: 85%;
-    resize: none;
+    resize: none;   
+    outline: 0;
 }
 
 
