@@ -135,7 +135,7 @@ form{
 .com-texto{
     display: none;
     height: inherit;
-
+    width: inherit;
 }
 
 #texto-inserido-invalido{
